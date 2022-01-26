@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style/bootstrap.css" />
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css" />
+    <!-- style file -->
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Site Name</title>
+  </head>
+  <body>
+
+    <div class="container-fluid-xxl">
+      <div class="main-content">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid navigation-container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/nav icon.PNG"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Site Name
+        </a>
+
+        <button
+          class="navbar-toggler toolbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fas fa-sliders-h"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-secondary"
+                aria-current="page"
+                href="#"
+                id="menu1"
+                data-key="1"
+                
+                >Menu1</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-secondary"
+                aria-current="page"
+                href="#"
+                id="menu2"
+                data-key="2"
+                >Menu2</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-secondary"
+                aria-current="page"
+                href="#"
+                id="menu3"
+                data-key="3"
+                key=
+                >Menu3</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-secondary"
+                aria-current="page"
+                href="#"
+                id="menu4"
+                data-key="4"
+                >Menu4</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-secondary"
+                aria-current="page"
+                href="#"
+                id="menu5"
+                  data-key="5"
+                >Menu5</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex">
+            <span>user name</span> <i class="fas fa-user" id="logoutUserIcon"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- log out content -->
+    <div id="logOutContent"></div>
+    <!-- Start toolbar -- in this div toolbar will be rendered based on each minu Btn-->
+    <div id="toolbarContent"></div>
+    <!-- Start Icon bar -->
+    <div id="iconBarContent"></div>
+
+    <!-- left side bar -->
+      <div class="left-side-bar-container" id="left-side-bar-container"></div>
+    <!-- vertical line to open left side bar -->
+      <div id="verical-line-container">
+        <span class="openLeftBar-vertical-line open-left-btn" id="opneLeftSideBtn"></span>
+        <i class="fas fa-caret-right open-left-btn"></i>
+      </div>
+    
+
+
+
+  <!--end App  -->
+  </div>
+  </div>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+    <!-- left side data in JSON format -->
+    <script src="js/directoryData.js"></script>
+    <!-- JS Script -->
+    <script src="js/script.js"></script>   
+  </body>
+</html>
